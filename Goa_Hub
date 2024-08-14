@@ -50,3 +50,16 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local QS = Window:CreateTab("Answer The Report Bug", 4483362458) -- Title, Image
+
+local Question = QS:CreateSection("Report Bug")
+
+local Paragraph = QS:CreateParagraph({Title = " 1", Content = "Old version was supported on mobile, but when exciting, it covers the whole screen and does not work on phone. It's just too big and I can't drag it at all"})
+
+local Paragraph = QS:CreateParagraph({Title = "2", Content = "something's wrong, whenever I click the button, it doesn't work"})
+
+local Answer = QS:CreateSection("Answer The Report Bug")
+
+local Paragraph = QS:CreateParagraph({Title = "1", Content = "You can use the new version, that why i make new version because the old version the gui not good, i can't make it draggable or change gui size because the ui library not open source"})
+
+local Paragraph = QS:CreateParagraph({Title = "2", Content = "Tell me what version you use and what script you can't click, i don't know the bug if you not tell the version"})
