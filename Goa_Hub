@@ -58,11 +58,33 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
+   Name = "If you want request new feature comment on this video ( if i can add the feature )",
+   Callback = function()
+      setclipboard("https://youtu.be/bwcK-aZNsFQ?si=5RdomPfXdZb7-aKM")
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "If you found bug, comment on this link",
    Callback = function()
       setclipboard("https://scriptblox.com/script/Pressure-GOA-HUB-16519")
    end,
 })
+
+local Button = Tab:CreateButton({
+   Name = "or comment on this video youtube",
+   Callback = function()
+      setclipboard("https://youtu.be/bwcK-aZNsFQ?si=5RdomPfXdZb7-aKM")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "This script by Nevcit, subscribe for support me",
+   Callback = function()
+      setclipboard("https://youtube.com/@nevcit?si=25BoCrwqlaMTWLDU")
+   end,
+})
+
 
 local QS = Window:CreateTab("Answer The Report Bug", 4483362458) -- Title, Image
 
