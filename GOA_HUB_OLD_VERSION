@@ -2,6 +2,6 @@ local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit
 
 Fluent:Notify({
     Title = "NOTIFICATION",
-    Content = "THE SCRIPT UPDATE, GET ON MY CHANNEL YOUTUBE NEVCIT",
+    Content = "THE SCRIPT UPDATE, GET THE NEW SCRIPT ON MY CHANNEL YOUTUBE NEVCIT",
     Duration = 10
 })
